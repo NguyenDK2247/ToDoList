@@ -2,7 +2,13 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
-    "types": []
+    "types": [
+      "node"
+    ],
+    "paths": {
+      "stream": ["node_modules/stream-browserify"]
+    },
+    "allowSyntheticDefaultImports": true
   },
   "files": [
     "src/main.ts",
@@ -10,5 +16,9 @@
   ],
   "include": [
     "src/**/*.d.ts"
+  ],
+  "exclude": [
+    "src/test.ts",
+    "src/**/*.spec.ts"
   ]
 }

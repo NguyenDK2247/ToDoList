@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --port=other-port",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -16,11 +16,18 @@
     "@angular/compiler": "~9.1.13",
     "@angular/core": "~9.1.13",
     "@angular/forms": "~9.1.13",
+    "@angular/localize": "^9.1.13",
     "@angular/platform-browser": "~9.1.13",
     "@angular/platform-browser-dynamic": "~9.1.13",
     "@angular/router": "~9.1.13",
+    "@ng-bootstrap/ng-bootstrap": "5.2.0",
+    "bootstrap": "^5.3.7",
+    "exceljs": "^4.1.1",
+    "file-saver": "^2.0.2",
     "rxjs": "~6.5.4",
+    "stream-browserify": "^3.0.0",
     "tslib": "^1.10.0",
+    "xlsx": "^0.16.6",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {

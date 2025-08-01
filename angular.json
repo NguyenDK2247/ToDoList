@@ -25,7 +25,12 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "./node_modules/@ant-design/icons-angular/src/inline-svg/",
+                "output": "/assets/"
+              }
             ],
             "styles": [
               "src/styles.scss"
@@ -123,6 +128,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ToDoList"
+    }
+  },
+  "defaultProject": "ToDoList",
+  "cli": {
+    "analytics": "152f7e78-108f-4468-8209-c64eaa092a19"
+  }
 }

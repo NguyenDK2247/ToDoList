@@ -1,0 +1,39 @@
+.completed {
+  text-decoration: line-through;
+  color: rgb(210, 210, 210);
+}
+
+.passed {
+  font-weight: bold;
+  color: red;
+}
+
+th {
+  text-align: center;
+}
+
+td {
+  text-align: center;
+}
+
+.file-upload {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Button color */
+  color: white; /* Text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 20px; /* Spacing below the button */
+}
+
+.file-upload input[type="file"] {
+  display: none; /* Hide the default file input */
+}
+
+.file-upload:hover {
+  background-color: #45a049; /* Darker shade on hover */
+}
+
