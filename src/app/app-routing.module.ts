@@ -5,12 +5,12 @@ import { SecondPageComponent } from './components/second-page/second-page.compon
 
 
 const routes: Routes = [
-  {path: 'first-page', component: FirstPageComponent},
-  {path: 'second-page', component: SecondPageComponent},
+    { path: 'first-page', component: FirstPageComponent },
+    { path: 'second-page', component: SecondPageComponent },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+    imports: [RouterModule.forRoot(routes)],
+    exports: [RouterModule]
 })
 export class AppRoutingModule { }
